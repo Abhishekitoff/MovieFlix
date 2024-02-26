@@ -5,7 +5,7 @@ export const Sidenav = () => {
     const [menu, setmenu] = useState(true)
     return (
         <>
-         <div className={`sm:w-[20%] w-[100%]  ${menu? "hidden": "sm:block" } h-full border-r-[1px] border-zinc-400 p-10 `}>
+         <div className={`sm:w-[20%] w-[100%]  ${menu && "hidden" } sm:block h-full border-r-[1px] border-zinc-400 p-10 `}>
 
             <h1 className='text-2xl text-white font-bold'>  <i className="ri-tv-fill text-[#1CE783] mr-2 "></i> <span className=' '> Movie Flix</span></h1>
 
